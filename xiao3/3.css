@@ -1,0 +1,408 @@
+body {
+	margin: 0;
+	width: 100%;
+}
+
+div {
+	width: 100%;
+	height: 2360px;
+}
+
+
+/*
+ * 导航栏
+ */
+
+#div1 {
+	background-color: white;
+	width: 100%;
+	height: 61px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 120;
+	transition: height 1s;
+	overflow: hidden;
+	/*超出部分隐藏*/
+}
+
+.span1a {
+	position: absolute;
+	right: 80px;
+	top: 20px;
+}
+
+.span1b {
+	position: absolute;
+	left: 300px;
+	top: 0px;
+	z-index: 130;
+	position: fixed;
+}
+
+#show {
+	background: url(img/s.png) no-repeat;
+	position: absolute;
+	top: 15px;
+	left: 950px;
+	height: 40px;
+	width: 40px;
+	cursor: pointer;
+}
+
+#hidden {
+	position: absolute;
+	top: 70px;
+	left: 60px;
+	width: 85%;
+	height: 20px;
+}
+
+.span1a a {
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+.span1b a {
+	text-decoration: none;
+	color: #647e99;
+	margin-right: 25px;
+}
+
+ul {
+	list-style: none;
+}
+
+.nav li {
+	float: left;
+}
+
+span ul a {
+	display: block;
+	margin: 0;
+	text-decoration: none;
+	width: 200px;
+	height: 30px;
+	text-align: center;
+	line-height: 20px;
+	color: white;
+	background-color: white;
+}
+
+.main {
+	width: 100px;
+	height: 20px;
+}
+
+.minor {
+	padding: 0;
+	display: none;
+}
+
+.block:hover {
+	background-color: whitesmoke;
+}
+
+.minor li:hover a {
+	/* 下拉菜单鼠标放置出现效果 */
+	background-color: whitesmoke;
+}
+
+.nav .main:hover .minor {
+	/* 下拉菜单块状显示 */
+	display: block;
+}
+
+
+/*
+ * 轮播图
+ */
+
+.div2 {
+	width: 100%;
+	height: 600px;
+	position: relative;
+}
+
+.span2a {
+	position: absolute;
+	left: 100px;
+	top: 120px;
+	height: 600px;
+	width: 40%;
+}
+
+.span2b {
+	position: absolute;
+	left: 700px;
+	top: 120px;
+}
+
+.span2c {
+	position: absolute;
+	left: 600px;
+	top: 60px;
+}
+
+.span2d {
+	position: absolute;
+	left: 100px;
+	top: 70px;
+}
+
+.span2e {
+	position: absolute;
+	left: 100px;
+	top: 120px;
+	height: 600px;
+	width: 40%;
+}
+
+.span2f {
+	position: absolute;
+	left: 700px;
+	top: 120px;
+}
+
+.a1 {
+	text-decoration: none;
+	color: white;
+	font-size: 50px;
+}
+
+.a2 {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+.list {
+	width: 100%;
+	height: 600px;
+	list-style: none;
+	position: relative;
+	padding-left: 0px;
+}
+
+.item {
+	width: 100%;
+	height: 600px;
+	font-size: 50px;
+	position: absolute;
+}
+
+.item:nth-child(1) {
+	background: url(img/o.png) no-repeat;
+	background-size: 100%;
+}
+
+.item:nth-child(2) {
+	background: url(img/p.png) no-repeat;
+	background-size: 100%;
+}
+
+.item:nth-child(3) {
+	background: url(img/q.png) no-repeat;
+	background-size: 100%;
+}
+
+.btn {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 250px;
+	z-index: 20;
+	opacity: 0.5;
+}
+
+#goPre {
+	left: 20px;
+}
+
+#goNext {
+	right: 20px;
+}
+
+.item.active {
+	z-index: 10;
+}
+
+.pointList {
+	/* 底部三个按钮（整体）*/
+	list-style: none;
+	position: absolute;
+	left: 570px;
+	bottom: 20px;
+	z-index: 100;
+}
+
+.point {
+	/* 底部三个按钮（单个）*/
+	width: 25px;
+	height: 1px;
+	background-color: #000000;
+	border-radius: 2%;
+	float: left;
+	margin-right: 20px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	cursor: pointer;
+}
+
+.point.active {
+	/* 点击底部三个按键的点击颜色变化 */
+	background-color: whitesmoke;
+}
+
+
+/*
+ * 网页介绍（上）
+ */
+
+.div3 {
+    margin: 0 auto;
+	width: 80%;
+	height: 500px;
+}
+
+.span3a {
+	position: absolute;
+	left: 60px;
+	top: 650px;
+}
+
+.span3b {
+	position: absolute;
+	left: 550px;
+	top: 650px;
+}
+
+.span3c {
+	position: absolute;
+	left: 1000px;
+	top: 650px;
+}
+
+h3 {
+	color: #647E99;
+}
+
+
+/*
+ * 网页介绍（下）
+ */
+
+.div4 {
+	margin: 0 auto;
+	background-color: whitesmoke;
+	width: 90%;
+	height: 600px;
+}
+
+.diva {
+	float: left;
+	height: 400px;
+	width: 30%;
+	margin: 40px;
+}
+
+.divb {
+	float: right;
+	height: 400px;
+	width: 50%;
+	margin: 40px;
+}
+
+
+/*
+ * 网页底部
+ */
+
+.div5 {
+	background-color: #6b4fbb;
+	width: 100%;
+	height: 700px;
+	color: white;
+}
+
+.span5a {
+	position: absolute;
+	left: 600px;
+	top: 1657px;
+}
+
+.span5b {
+	position: absolute;
+	left: 540px;
+	top: 1770px;
+}
+
+.span5c {
+	position: absolute;
+	left: 100px;
+	top: 1840px;
+	line-height: 30px;
+}
+
+.span5d {
+	position: absolute;
+	left: 350px;
+	top: 1840px;
+	line-height: 30px;
+}
+
+.span5e {
+	position: absolute;
+	left: 600px;
+	top: 1840px;
+	line-height: 30px;
+}
+
+.span5f {
+	position: absolute;
+	left: 850px;
+	top: 1840px;
+	line-height: 30px;
+}
+
+.span5g {
+	position: absolute;
+	left: 1100px;
+	top: 1840px;
+	line-height: 30px;
+}
+
+.div5 a {
+	text-decoration: none;
+	color: white;
+}
+
+.div5 a:hover {
+	color: red;
+}
+
+.span5b a {
+	float: left;
+	background-color: white;
+	display: block;
+	margin: 10px;
+}
+
+.span5b a:hover {
+	background-color: orchid;
+}
+
+.div6 {
+	text-align: center;
+	color: white;
+	background-color: purple;
+	position: absolute;
+	top: 2380px;
+	width: 100%;
+	height: 50px;
+}
+
+.div6 a {
+	text-decoration: underline;
+}

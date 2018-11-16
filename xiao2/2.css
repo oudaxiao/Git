@@ -1,0 +1,177 @@
+body{
+	margin: 0;
+}
+div{
+	width: 100%;
+	height:2360px;
+}
+/*
+ * 网页头部
+ */
+.div1{
+	background-color:white ;
+	width: 100%;
+	height: 61px;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:888;
+}
+.span1{
+	position:absolute;
+	right: 100px;
+	top:10px;
+}
+.div1 a{
+	text-decoration:none;
+	color:#647e99;
+	 margin-right: 25px;
+}
+/*
+ * 轮播图
+ */
+.div2{
+	background:url(img/o.png)no-repeat;
+	background-size:100%;
+	width: 100%;
+	height: 600px;
+}
+.span2{
+	position: absolute;
+	left:100px;
+	top:120px;
+}
+.span3{
+	position: absolute;
+	left:700px;
+	top: 120px;
+}
+.div2 a{
+	text-decoration:none;
+	color:white;
+}
+/*
+ * 网页介绍（上）
+ */
+.div3{
+	margin: 0 auto;
+	width: 80%;
+	height:500px;
+}
+.span4{
+	position: absolute;
+	left: 60px;
+	top: 650px;
+}
+.span5{
+	position: absolute;
+	left: 550px;
+	top: 650px;
+}
+.span6{
+	position: absolute;
+	left: 1000px;
+	top: 650px;
+}
+h3{
+	color: #647E99;
+}
+ul{
+    list-style: none;
+}
+/*
+ * 网页介绍（下）
+ */
+.div4{
+	margin: 0 auto;
+	background-color:whitesmoke;
+	width:90%;
+	height:600px;
+}
+.diva{
+    float:left;
+	height:400px;
+	width:30%;
+	margin:40px;
+}
+.divb{
+	float: right;
+	height:400px;
+	width:50%;
+	margin:40px;
+}
+/*
+ * 网页底部（上)
+ */
+.div5{
+	background-color:#6b4fbb ;
+	width: 100%;
+	height:700px;
+	color:white;
+}
+.span7{
+	position: absolute;
+	left:600px;
+	top: 1640px;	
+}
+.span8{
+	position: absolute;
+	left:560px;
+	top:1745px;	
+}
+.span9{
+	position: absolute;
+	left:100px;
+	top:1800px;
+	line-height:30px;
+}
+.span10{
+	position: absolute;
+	left:350px;
+	top:1800px;
+	line-height:30px;
+}
+.span11{
+	position: absolute;
+	left:600px;
+	top:1800px;
+	line-height:30px;
+}
+.span12{
+	position: absolute;
+	left:850px;
+	top:1800px;
+	line-height:30px;
+}
+.span13{
+	position: absolute;
+	left:1100px;
+	top:1800px;
+	line-height:30px;
+}
+.div5 a{
+	text-decoration:none;
+	color:white;
+}
+/*
+ * 网页底部（下）
+ */
+.div6{
+	text-align: center;
+	color:white;
+	background-color:purple;
+	position: absolute;
+	top:2350px;
+	width:100%;
+	height:50px;
+}
+.div6 a{
+	text-decoration:underline;
+}
+ 
+
+
+
+
+
+
