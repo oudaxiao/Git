@@ -1,12 +1,13 @@
 body{
 	margin: 0;
+	overflow-x:hidden;
 }
 /**导航栏**/
 #top{
 	width:100%;
 	height:55px;
 }
-img{
+#top img{
 	position: relative;
 	width:108px;
 	height:23px;
@@ -33,20 +34,32 @@ img{
 }
 .menu-one{
 	position: absolute;
-	width: 700px;
+	width: 900px;
 	height: 23px;
 	top: 19px;
-	left: 355px;
-	font-size: 13px;
+	left: 350px;
+	font-size: 13px;	
 }
 .menu-one a{
 	margin-left: 20px;
 	text-decoration: none;
 	color: #000000;
 }
+.show{
+	float: left;
+	list-style: none;
+} 
+.hidden{
+	display: none;
+	list-style: none;
+}
+.appear{
+	display:block; 
+}
 .free{
 	padding: 7px;
 	border:1px solid;
+	border-radius: 5px;
 }
 .flush{
 	font-size: 15px;
@@ -56,10 +69,10 @@ img{
 }
 .menu-two{
 	position: absolute;
-	width: 100px;
+	width: 110px;
 	height: 23px;
-	top: 20px;
-	left: 950px;
+	top: 0px;
+	left: 600px;
 	font-size: 14px;
 	text-decoration: none;
 	color: #000000;
@@ -69,7 +82,7 @@ img{
 	width: 12px;
 	height: 12px;
 	top: 6px;
-	left: 1077px;
+	left: 1100px;
     border-radius: 100%;
     border:2px solid currentcolor;
     margin:10px auto;
@@ -78,8 +91,8 @@ img{
 	position: absolute;
 	width: 10px;
 	height: 2px;
-	top: 17px;
-	left: 1073px;
+	top: 15px;
+	left: 1096px;
 	-webkit-transform: rotate(135deg);
 	-moz-transform: rotate(135deg);
 	transform: rotate(135deg);
@@ -90,7 +103,7 @@ img{
 	width: 50px;
 	height: 23px;
 	top: 20px;
-	left: 1130px;
+	left: 1140px;
 	font-size: 14px;
 	text-decoration: none;
 	color: #000000;
@@ -107,46 +120,285 @@ img{
 	width: 100%;
 	height: 700px;
 }
-
+.picture{
+	position: relative;
+	top: 110px;
+	left:80px;
+	width: 60px;
+	height: 60px;	
+}
+.head{
+	position: relative;
+	top: 100px;
+	left: 80px;
+	font-size: 41px;
+	letter-spacing:-3px;
+	width: 350px;
+}
+.main{
+	position: relative;
+	top: 80px;
+	left: 80px;
+	font-size: 20px;
+	width: 400px;
+}
+.toop-one{
+	position: relative;
+	top: 150px;
+	left: 80px;
+	font-size: 20px;
+	padding: 7px 20px 7px 20px;
+	border:1px solid;
+	text-decoration: none;
+}
+.toop-two{
+	position: relative;
+	top: 150px;
+	left: 72px;
+	font-size: 20px;
+	padding: 7px 20px 7px 20px;	
+	border:1px solid;
+	text-decoration: none;
+}
+.img-one{
+	position: absolute;
+	top: 300px;
+	left:700px;
+    width:1000px;
+	height:455px;
+}
+.download-top input{
+	position: absolute;
+	background: url(../img/all.png) no-repeat;
+	background-position: 180px;
+	background-color: #0067b8;
+	color: white;
+	top: 580px;
+	left: 75px;
+	width: 220px;
+	height: 50px;
+	font-size: 17px;
+	padding-right: 30px;
+}
 /**下载视图(下)**/
 .download-down{
 	height: 400px;
 	width: 100%;
 	background-color: whitesmoke;
 }
-h2{
+.head-h2{
 	position: relative;
 	margin: 0px;
-	font-size: 40px;
+	font-size: 35px;
 	text-align: center;
-	top: 50px;
+	top: 70px;
+	letter-spacing:-2px;
+}
+.download-down li{
+	position: relative;
+	float: left;
+	top: 15px;
+	width: 420px;
+	height: 300px;
+	list-style: none;
+}
+.download-down img{
+    position:absolute;
+    top:110px;
+	left: 50px;
+	width: 160px;
+	height:160px;
+}
+.download-down a{
+	position: absolute;
+	top: 120px;
+	left: 250px;
+	width: 150px;
+	color: blue;
+	font-size: 22px;
+	text-decoration: none;
+}
+.text-dowm{
+	position:absolute;
+	top: 190px;
+	left: 250px;
+	width: 170px;
+	font-size: 18px;
 }
 /**切换菜单**/
 #cut{
+	position: relative;
 	width: 100%;
-	height: 700px;
+	height: 1000px;
+	top: 150px;
 }
-
+#cut li{
+	margin: 52px;
+	position: relative;
+	float: left;
+	list-style: none;
+	left: 200px;
+	font-size: 24px;
+}
+#cut a{
+	text-decoration: none;
+}
+.li-down{
+	position: absolute;
+	top: 200px;
+	left: 260px;
+	text-align: center;
+    width: 60%;
+	word-spacing: 6px;
+	line-height: 30px;
+}
+.li-down img{
+	height: 500px;
+	width: 757px;
+}
 /**超链接(上))**/
 #lianjie-top{
+	position: relative;
+	top: 200px;
 	width: 100%;
-	height: 700px;
+	height: 900px;
+	background-color: #f1f1f1;
 }
-
+#lianjie-top h1{
+	position: relative;
+	text-align: center;
+	top: 100px;
+}
+#lianjie-top li{
+	position: relative;
+	left: 100px;
+	top: 130px;
+	float: left;
+	list-style: none;
+	width: 400px;
+	height: 240px;
+}
+#lianjie-top a{
+	position: absolute;
+	top: 10px;
+	left: 110px;
+	width: 250px;
+	font-size: 25px;
+	text-decoration: none;
+}
+#lianjie-top p{
+	position: absolute;
+	top: 30px;
+	left: 110px;
+	width: 200px;
+	height: 200px;
+	font-size: 18px;
+}
 /**超链接(下)**/
 #lianjie-down{
+	position: relative;
+	top: 200px;
 	width: 100%;
-	height: 700px;
+	height: 350px;
+	background-color: #3a5068;	
 }
-
+#lianjie-down li{
+	float: left;
+	width: 420px;
+	height: 100%;
+	text-align: center;
+	list-style:none;
+	letter-spacing: -1px;
+}
+#lianjie-down a{
+	position: relative;
+	top: 70px;
+	font-size: 23px;
+	text-decoration: none;
+	color: white;
+}
+#lianjie-down p{
+	position: relative;
+	top: 80px;
+	left: 30px;
+	width: 350px;
+	font-size: 17px;
+	line-height: 30px;
+	color: white;
+}
+.button-chao{
+	position: relative;
+	background: url(../img/all.png) no-repeat;
+	background-position: 140px;
+	background-color: #0067b8;
+	top:120px;
+	width: 190px;
+	height: 50px;
+	color: white;
+	font-size: 16px;
+	padding-right: 40px;
+}
+.button-lian{
+	position: relative;
+	background: url(../img/all.png) no-repeat;
+	background-position: 100px;
+	background-color: #0067b8;
+	top:120px;
+	width: 150px;
+	height: 50px;
+	color: white;
+	font-size: 16px;
+    padding-right: 40px;
+	
+	
+}
 /**底部(上)**/
 #bottom-top{
+	position: relative;
+	top: 200px;
 	width: 100%;
-	height: 700px;
+	height:350px;
+	background-color: #f1f1f1;
 }
-
+#bottom-top ul{
+	position: relative;
+	left: 40px;
+	float: left;
+	width: 160px;
+}
+#bottom-top li{
+	list-style: none;
+	margin-top: 18px;
+	font-size: 12px;
+}
+#bottom-top a{
+	text-decoration: none;
+}
 /**底部(下)**/
 #bottom-down{
+	position: absolute;
+	top: 3890px;
 	width: 100%;
-	height: 400px;
+	height: 60px;
+	background-color: #f1f1f1;	
+}
+#bottom-down img{
+	position: absolute;
+	left: 80px;
+}
+.language{
+	position: absolute;
+	left: 130px;
+	font-size: 12px;
+}
+#bottom-down li{
+	position: relative;	
+	left: 600px;
+	float: left;
+	margin: 15px;
+	font-size: 12px;
+	list-style: none;
+}
+#bottom-down a{
+	text-decoration: none;
 }
