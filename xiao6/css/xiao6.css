@@ -1,0 +1,16 @@
+body{
+    height: 560px;
+}
+#content{
+    width: 100%;
+    height: 45%;
+    resize: none;
+}
+#change{
+    width: 100%;
+    height: 45%;
+    resize: none;
+}
+#change img{
+    width: 100%;
+}
